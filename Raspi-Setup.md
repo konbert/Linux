@@ -8,7 +8,7 @@
 `pip install powerline-shell`
 
 * Configure powerline-shell:
-Add the following to your .bashrc file:
+Add the following to your .bashrc file:  
 ```function _update_ps1() {
     PS1=$(powerline-shell $?)
 }
@@ -16,7 +16,7 @@ Add the following to your .bashrc file:
 if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
-```
+
 
 ## Setup Files
 
@@ -24,6 +24,5 @@ fi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk0MjAwNzEsLTE0NjgxMzAyNDJdfQ
-==
+eyJoaXN0b3J5IjpbMTA0NTE0NDcyNywtMTQ2ODEzMDI0Ml19
 -->
