@@ -9,14 +9,15 @@
 
 * Configure powerline-shell:
 Add the following to your .bashrc file:  
-```function _update_ps1() {
+```
+function _update_ps1() {
     PS1=$(powerline-shell $?)
 }
 
 if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
-
+```
 
 ## Setup Files
 
@@ -24,5 +25,5 @@ fi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTE0NDcyNywtMTQ2ODEzMDI0Ml19
+eyJoaXN0b3J5IjpbLTM3NzMxNzM5NywtMTQ2ODEzMDI0Ml19
 -->
