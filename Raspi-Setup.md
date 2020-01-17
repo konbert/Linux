@@ -18,6 +18,12 @@ if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 ```
+### Vim Erweiterungen
+
+* Vundle:
+`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+* Air
+
 
 ## Setup Files
 
@@ -25,5 +31,6 @@ fi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzMxNzM5NywtMTQ2ODEzMDI0Ml19
+eyJoaXN0b3J5IjpbLTE5NzQzMjI3NzMsLTM3NzMxNzM5NywtMT
+Q2ODEzMDI0Ml19
 -->
