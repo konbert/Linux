@@ -4,10 +4,10 @@
 
 ### Powerline-shell
 
-* Install powerline-shell:
+* **Install powerline-shell:**
 `pip install powerline-shell`
 
-* Configure powerline-shell:
+* **Configure powerline-shell:**
 Add the following to your .bashrc file:  
 ```
 function _update_ps1() {
@@ -20,9 +20,11 @@ fi
 ```
 ### Vim Erweiterungen
 
-* Vundle:
+* **Vundle:**
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-* Air
+* **vim-airline**
+* **vim-airline-themes**
+* **fugitive**
 
 
 ## Setup Files
@@ -31,6 +33,6 @@ fi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQzMjI3NzMsLTM3NzMxNzM5NywtMT
-Q2ODEzMDI0Ml19
+eyJoaXN0b3J5IjpbMTI3NTczODM5MywtMzc3MzE3Mzk3LC0xND
+Y4MTMwMjQyXX0=
 -->
